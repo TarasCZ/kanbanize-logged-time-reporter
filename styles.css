@@ -1,0 +1,19 @@
+#container {
+    margin: 0 auto 0 auto;
+}
+
+header {
+    font-size: 170%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px 15px 5px 15px;
+}
