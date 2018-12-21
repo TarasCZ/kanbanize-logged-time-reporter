@@ -21,7 +21,7 @@ reportData.forEach((record) => {
 
     table.appendChild(tr);
 
-    sumHours += parseInt(record.loggedTime);
+    sumHours += parseFloat(record.loggedTime);
 })
 
 const trSum = document.createElement('tr');
